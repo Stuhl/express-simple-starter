@@ -26,5 +26,4 @@ app.get("/", (req, res) => {
 // listen to port
 app.listen(PORT, () => {
   console.log(`Server running successfully on port ${PORT}`)
-  console.log(key)
 })
