@@ -1,3 +1,8 @@
+// NAMESPACINGS YOU SHOULD GENERATE IN YOUR FILES
+const fetch = require("node-fetch")
+
+
+
 // express
 const app = require("express")()
 
