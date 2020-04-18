@@ -1,7 +1,4 @@
-// NAMESPACINGS YOU SHOULD GENERATE IN YOUR FILES
 const fetch = require("node-fetch")
-
-
 
 // express
 const app = require("express")()
@@ -11,7 +8,6 @@ require("dotenv").config()
 
 // secrets
 const PORT = process.env.PORT || 5000
-const key = process.env.LEAGUE
 
 // 3rd party
 const compression = require("compression")
